@@ -21,4 +21,9 @@ public interface DeviceCrudRepository extends JpaRepository<Device, Integer> {
 
     // Buscar dispositivos ordenados por nombre
     List<Device> findAllByOrderByNameAsc();
+
+
+    //jaja
 }
+
+
